@@ -1,0 +1,25 @@
+{
+  "pca_explained_variance_ratio": [
+    0.37994346060572687,
+    0.22477315221372152
+  ],
+  "pca_total_variance_explained_2d": 0.6047166128194483,
+  "tsne_sample_size": 4000,
+  "tsne_perplexity": 30,
+  "perplexity_sweep": {
+    "perplexities": [
+      5,
+      15,
+      30,
+      50,
+      100
+    ],
+    "silhouette_scores": [
+      0.06520826369524002,
+      0.06896330416202545,
+      0.06893981248140335,
+      0.05272139608860016,
+      0.010743975639343262
+    ]
+  }
+}
