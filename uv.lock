@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.14"
 resolution-markers = [
     "sys_platform == 'win32'",
@@ -543,6 +543,7 @@ name = "statistical-machine-learning-applications"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "cycler" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "scikit-learn" },
@@ -552,6 +553,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "cycler", specifier = ">=0.12.1" },
     { name = "numpy", specifier = ">=2.5.3" },
     { name = "pandas", specifier = ">=3.0.5" },
     { name = "scikit-learn", specifier = ">=1.9.1" },
